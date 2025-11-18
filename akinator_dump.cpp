@@ -19,7 +19,7 @@ void PrintNode(const node_t* node)
 {
     assert(node != nullptr);
     
-    printf("%s?\n", node->data);
+    printf("%s\n", node->data);
 }
 
 void DumpGraphNode(const node_t* node, FILE* filee)
@@ -31,7 +31,7 @@ void DumpGraphNode(const node_t* node, FILE* filee)
         DumpGraphNode(node->left, filee);
     if (node->right)
         DumpGraphNode(node->right, filee);
-    fprintf(filee, "%u [shape=Mrecord; style = filled; fillcolor = \"#c0f2f2ff\"; color = \"#4682B4\"; rankdir=TB; label = \"{%x}|{%s}|{no\\n %x|yes\\n %x}\"];\n", &node->data, &node->data, node->data, node->left, node->right);
+    fprintf(filee, "%u [shape=Mrecord; style = filled; fillcolor = \"#c0f2f2ff\"; color = \"#4682B4\"; rankdir=TB; label = \"{%x}|{%s}|{no\\n %x|yes\\n %x}|{prev\\n %x}\"];\n", &node->data, &node->data, node->data, node->left, node->right, node->prev);
 }
 
 void MakeCommunicationBetweenNodes(const node_t* node, FILE* filee)
