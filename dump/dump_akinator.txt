@@ -1,0 +1,9 @@
+digraph {
+4057688288 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{f1db68e0}|{Ryan Gosling}|{no\n 0|yes\n 0}|{prev\n f1db64c0}"];
+4057689344 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{f1db6d00}|{Justik Bobik}|{no\n 0|yes\n 0}|{prev\n f1db64c0}"];
+4057687232 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{f1db64c0}|{sings songs?}|{no\n f1db68e0|yes\n f1db6d00}|{prev\n f1db60a0}"];
+4057691456 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{f1db7540}|{hamster}|{no\n 0|yes\n 0}|{prev\n f1db7120}"];
+4057692512 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{f1db7960}|{bear}|{no\n 0|yes\n 0}|{prev\n f1db7120}"];
+4057690400 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{f1db7120}|{burns in a car?}|{no\n f1db7540|yes\n f1db7960}|{prev\n f1db60a0}"];
+4057686176 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{f1db60a0}|{animal?}|{no\n f1db64c0|yes\n f1db7120}|{prev\n 0}"];
+4057686176 -> 4057687232 4057687232 -> 4057688288 4057687232 -> 4057689344 4057686176 -> 4057690400 4057690400 -> 4057691456 4057690400 -> 4057692512 }

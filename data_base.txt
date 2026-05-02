@@ -1,0 +1,1 @@
+( "animal?" ( "sings songs?" ( "Gosling" nil nil )( "Bieber" nil nil ))( "burns in a car?" ( "buzz?" ( "flies?" ( "hamster" nil nil )( "fly" nil nil ))( "bee" nil nil ))( "bear" nil nil )))

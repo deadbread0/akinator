@@ -1,0 +1,13 @@
+digraph {
+571566368 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{22116920}|{Gosling}|{no\n 0|yes\n 0}|{prev\n 22116500}"];
+571567424 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{22116d40}|{Bieber}|{no\n 0|yes\n 0}|{prev\n 22116500}"];
+571565312 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{22116500}|{sings songs?}|{no\n 22116920|yes\n 22116d40}|{prev\n 221160e0}"];
+571575680 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{22118d80}|{hamster}|{no\n 0|yes\n 0}|{prev\n 221179a0}"];
+571575632 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{22118d50}|{fly}|{no\n 0|yes\n 0}|{prev\n 221179a0}"];
+571570592 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{221179a0}|{flies?}|{no\n 22118d80|yes\n 22118d50}|{prev\n 22117580}"];
+571571648 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{22117dc0}|{bee}|{no\n 0|yes\n 0}|{prev\n 22117580}"];
+571569536 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{22117580}|{buzz?}|{no\n 221179a0|yes\n 22117dc0}|{prev\n 22117160}"];
+571572704 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{221181e0}|{bear}|{no\n 0|yes\n 0}|{prev\n 22117160}"];
+571568480 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{22117160}|{burns in a car?}|{no\n 22117580|yes\n 221181e0}|{prev\n 221160e0}"];
+571564256 [shape=Mrecord; style = filled; fillcolor = "#c0f2f2ff"; color = "#4682B4"; rankdir=TB; label = "{221160e0}|{animal?}|{no\n 22116500|yes\n 22117160}|{prev\n 0}"];
+571564256 -> 571565312 571565312 -> 571566368 571565312 -> 571567424 571564256 -> 571568480 571568480 -> 571569536 571569536 -> 571570592 571570592 -> 571575680 571570592 -> 571575632 571569536 -> 571571648 571568480 -> 571572704 }

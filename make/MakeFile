@@ -1,0 +1,2 @@
+all:
+	g++ src/akinator_dump.cpp src/choose_mode.cpp src/functions_for_tree.cpp src/functions_for_user.cpp src/main.cpp src/work_with_data_base.cpp -I include -o new.exe
